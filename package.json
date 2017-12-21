@@ -1,7 +1,7 @@
 {
 	"name": "material-colors",
 	"main": "./lib/main",
-	"version": "0.2.0",
+	"version": "0.0.0",
 	"description": "Autocomplete material design colors for Atom editor",
 	"keywords": [
 		"autocomplete",
