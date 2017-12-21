@@ -1,0 +1,33 @@
+{
+	"name": "material-colors",
+	"main": "./lib/main",
+	"version": "0.2.0",
+	"description": "Autocomplete material design colors for Atom editor",
+	"keywords": [
+		"autocomplete",
+		"material color",
+		"material design",
+		"css",
+		"color"
+	],
+	"repository": "https://github.com/delafields/atom-material-colors.git",
+	"author": "Jeremy Fields <badatfun@gmail.com> (http://jfields.me)",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.15.0 <2.0.0"
+	},
+	"activationHooks": [
+		"language-css:grammar-used",
+		"language-less:grammar-used",
+		"language-sass:grammar-used",
+		"language-scss:grammar-used",
+		"Stylus:grammar-used"
+	],
+	"providedServices": {
+		"autocomplete.provider": {
+			"versions": {
+				"2.0.0": "getProvider"
+			}
+		}
+	}
+}
