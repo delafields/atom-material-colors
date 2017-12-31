@@ -6,7 +6,6 @@ Just type #mc in any of the supported file types (below) to get a list of [Mater
 
 ###### Currently supported file extensions are:
 
-* css/less/scss/sass/stylus
+* css/less/scss/sass
 * html
 * js/jsx
-
